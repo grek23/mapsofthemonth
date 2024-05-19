@@ -1,0 +1,27 @@
+.container {
+    width: 66.67%; /* roughly two thirds of the screen */
+    margin: 0 auto; /* center the container */
+    text-align: center; /* center the content */
+  }
+  
+  .progress-container {
+    position: relative;
+    width: 100%;
+    background-color: #f1f1f1;
+  }
+  
+  .progress-bar {
+    width: 0%;
+    height: 30px;
+    background-color: #4caf50;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+  }
+  
+  .progress-text {
+    position: absolute;
+    bottom: -30px; /* align below the progress bar */
+    width: 100%;
+  }
+  
