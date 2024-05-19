@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #333;
+    font-size: 20px; /* Larger font size for better readability */
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+.container2 {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+h1 {
+    color: #333;
+    font-size: 32px; /* Larger heading size */
+}
+p {
+    color: #666;
+    font-size: 24px; /* Larger paragraph text size */
+    line-height: 1.5; /* Increased line height for better readability */
+    margin-bottom: 20px; /* Added margin bottom for separation */
+}
+.button {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 15px 30px; /* Larger button padding */
+    font-size: 24px; /* Larger button text size */
+    text-decoration: none;
+    border-radius: 8px; /* Rounded corners */
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+.button:hover {
+    background-color: #0056b3;
+}
+.map-image {
+    max-width: 70%;
+    height: auto;
+    margin-bottom: 20px; /* Added margin bottom for separation */
+}

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Preferences Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            margin-bottom: 20px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        input[type="text"], select {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Travel Preferences 2</h2>
+        <form action="submit_form02.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="from">Where are you from:</label>
+            <input type="text" id="from" name="from" required>
+
+            <label for="destination">Which part of the United States do you want to explore:</label>
+            <select id="destination" name="destination" required>
+                <option value="">Select One</option>
+                <option value="West Coast">West Coast</option>
+                <option value="East Coast">East Coast</option>
+                <option value="Midwest">Midwest</option>
+                <option value="South">South</option>
+            </select>
+
+            <label for="preference">Do you prefer mountains or the sea:</label>
+            <select id="preference" name="preference" required>
+                <option value="">Select One</option>
+                <option value="Mountains">Mountains</option>
+                <option value="Sea">Sea</option>
+            </select>
+
+            <label for="season">Which season do you prefer:</label>
+            <select id="season" name="season" required>
+                <option value="">Select One</option>
+                <option value="Spring">Spring</option>
+                <option value="Summer">Summer</option>
+                <option value="Fall">Fall</option>
+                <option value="Winter">Winter</option>
+            </select>
+
+            <label for="season">Favorite Action hero:</label>
+            <select id="Hero" name="Hero" required>
+                <option value="">Select One</option>
+                <option value="Arnold">Arnold Schwartzennegehiemer</option>
+                <option value="Sly">Sylvester Stalonnnneeeee</option>
+                <option value="Chuck">Chuck Norris</option>
+                <option value="Sean">Sean connery</option>
+                <option value="Clint">Clint Eastwood</option>
+            </select>
+
+            <label for="season">What weather are you prepared to traverse?</label>
+            <select id="Weather" name="Weather" required>
+                <option value="">Select One</option>
+                <option value="Sunny">Sunny days only</option>
+                <option value="Light rain">Light rain</option>
+                <option value="Snow">Snow is where I draw the line</option>
+                <option value="North Sea Yo Ho">I am prepared to travers the North Sea in a row boat!</option>
+            </select>
+
+            <label for="season">Are you trained in mountaineering:</label>
+            <select id="Mountain" name="Mountain" required>
+                <option value="">Select One</option>
+                <option value="Yes">Yes</option>
+                <option value="Mountain Medical">Yes and Mountain Medical</option>
+                <option value="Mountain Medical+">Yes but also more than Mountain Medical</option>
+                <option value="Real Doctor">I have a medical degree for real.</option>
+            </select>
+
+            <label for="season">What Tom Clancy novel are you?</label>
+            <select id="TomC" name="TomC" required>
+                <option value="">Select One</option>
+                <option value="Sum">Sum of All Fears</option>
+                <option value="Hunt">Hunt for Red October</option>
+                <option value="Red Storm Rising">Red Storm Rising</option>
+                <option value="Real">I was actually on the sub described in the Hunt for Red October</option>
+            </select>
+
+            <label for="season">Favorite President on this list:</label>
+            <select id="Pres" name="Pres" required>
+                <option value="">Select One</option>
+                <option value="Lincoln">Lincoln</option>
+                <option value="Washington">Washington</option>
+                <option value="Jefferson">Jefferson</option>
+                <option value="Dwight">Dwight D Eisenhour</option>
+            </select>
+
+            <label for="season">Could you land a commercial airliner in an emergency situation if called upon?</label>
+            <select id="Pilot" name="Pilot" required>
+                <option value="">Select One</option>
+                <option value="Yes, but">Yes, with some guidance from Air Traffic Control</option>
+                <option value="Yes">Yes</option>
+                <option value="Easily">Easily, I have a commercial pilots license</option>
+                <option value="Sulley">I am Chesley Sullenberger</option>
+            </select>
+
+            <label for="season">Which branch of the military</label>
+            <select id="Military" name="Military" required>
+                <option value="">Select One</option>
+                <option value="Army">Army</option>
+                <option value="Navy">Navy</option>
+                <option value="Marines">Marines</option>
+                <option value="Chair Force">Chair Force</option>
+            </select>
+
+            <label for="season">Select the most dangerous animal you could beat in a fight:</label>
+            <select id="Animal" name="Animal" required>
+                <option value="cat">cat</option>
+                <option value="dog">dog</option>
+                <option value="coyote">coyote</option>
+                <option value="wolf">wolf</option>
+                <option value="Black bear">Black bear</option>
+                <option value="Grizzly bear">Grizzly bear</option>
+                <option value="Killer whale">Killer whale (Orca)</option>
+                <option value="Bald Eagle">Bald Eagle</option>
+            </select>
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>
