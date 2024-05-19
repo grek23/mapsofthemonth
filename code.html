@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Validation Code Checker</title>
+<link rel="stylesheet" href="styles02.css">
+</head>
+<body>
+<div class="container">
+  <h2>Validation Code Checker</h2>
+  <form action="handle_validation.php" method="post">
+    <input type="text" name="codePart1" maxlength="5" required>
+    <input type="text" name="codePart2" maxlength="5" required>
+    <input type="text" name="codePart3" maxlength="5" required>
+    <input type="text" name="codePart4" maxlength="5" required>
+    <button class="button" type="submit">Check Code</button>
+  </form>
+</div>
+</body>
+</html>
