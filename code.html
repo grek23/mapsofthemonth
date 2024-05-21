@@ -9,7 +9,15 @@
 <body>
 <div class="container">
   <h2>Validation Code Checker</h2>
+  <p>Please carefully enter your 40 digit gift box code so our team</p>
+  <p>of machine learning experts can deliver the best value to you.</p>
+  
   <form action="handle_validation.php" method="post">
+    <input type="text" name="codePart1" maxlength="5" required>
+    <input type="text" name="codePart2" maxlength="5" required>
+    <input type="text" name="codePart3" maxlength="5" required>
+    <input type="text" name="codePart4" maxlength="5" required>
+
     <input type="text" name="codePart1" maxlength="5" required>
     <input type="text" name="codePart2" maxlength="5" required>
     <input type="text" name="codePart3" maxlength="5" required>
